@@ -15,7 +15,7 @@ npm install -g @anthropic-ai/claude-code
 curl -LsSf https://astral.sh/uv/install.sh | bash
 
 
-\. "$HOME/.local/bin/env" 
+source "$HOME/.local/bin/env" 
 
 
 mkdir -p ~/.claude && cat > ~/.claude/settings.json << 'EOF'
