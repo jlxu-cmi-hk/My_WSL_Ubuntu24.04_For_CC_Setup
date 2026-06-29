@@ -12,7 +12,7 @@ nvm install --lts
 npm config set allow-scripts=@anthropic-ai/claude-code --location=user
 npm install -g @anthropic-ai/claude-code
 
-curl -LsSf https://astral.sh/uv/install.sh | sh
+curl -LsSf https://astral.sh/uv/install.sh | bash
 
 
 \. "$HOME/.local/bin/env" 
